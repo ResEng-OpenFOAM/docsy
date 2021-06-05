@@ -29,9 +29,6 @@
   integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY"
   crossorigin="anonymous"></script>
 {{end}}
-{{ with .Params.math }}
-{{ partial "mathjax_support.html" . }}
-{{end}}
 
 {{ if (.Params.mermaid) }}
 <!-- MermaidJS support -->
